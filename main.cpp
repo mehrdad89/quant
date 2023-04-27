@@ -14,6 +14,6 @@ int main() {
     std::cout << "Enter the time to expiration in years: ";
     std::cin >> T;
     double callPrice = blackScholesCall(S, K, r, sigma, T);
-    std::cout << "The price of the European call option is: " << callPrice << endl;
+    std::cout << "The price of the European call option is: " << callPrice << std::endl;
     return 0;
 }

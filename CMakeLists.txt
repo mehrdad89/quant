@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 # ... Define targets, etc. as usual
 
-add_executable(quant main.cpp)
+add_executable(quant main.cpp BlackScholesCallOptionPricing.h BlackScholesCallOptionPricing.cpp)

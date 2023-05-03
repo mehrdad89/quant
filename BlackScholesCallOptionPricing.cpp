@@ -1,10 +1,8 @@
 #include <cmath>
 #include <iostream>
-#include <BlackScholesCallOptionPricing.h>
+#include "BlackScholesCallOptionPricing.h"
 
 using namespace std;
-
-const double pi = 3.14159265358979323846;
 
 double normalCDF(double x) {
     return 0.5 * erfc(-x / sqrt(2.0));
